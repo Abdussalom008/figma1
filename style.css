@@ -63,9 +63,7 @@ body {
   /* color: whitesmoke; */
   border: none;
   cursor: pointer;
-  transition:
-    background-color 0.3 ease-in-out,
-    color 0.3 ease;
+  transition: background-color 0.3 ease-in-out, color 0.3 ease;
 }
 
 .req-btn:hover {
@@ -103,9 +101,7 @@ body {
   margin-top: 35px;
   border: none;
   cursor: pointer;
-  transition:
-    background-color 0.3 ease-in-out,
-    color 0.3 ease;
+  transition: background-color 0.3 ease-in-out, color 0.3 ease;
 }
 
 .booking-btn:hover {
@@ -126,10 +122,6 @@ body {
   height: 48px;
   margin-bottom: 140px;
 }
-
-/* .service-section { */
-/*   background-color: silver; */
-/* } */
 
 .intro-service {
   display: flex;
@@ -154,7 +146,6 @@ body {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(3, 1fr);
   gap: 40px;
-  margin-bottom: 10px;
 }
 
 .items {
@@ -175,7 +166,7 @@ body {
 }
 
 .seo-side > h3 {
-  font-size: 3rem;
+  font-size: 30px;
   background-color: #b9ff66;
   border-radius: 7px;
 }
@@ -188,7 +179,11 @@ body {
 }
 
 .learn-more > div {
-  font-size: 2rem;
+  font-size: 20px;
+}
+
+.seo-side .learn-more > div > a {
+  color: black;
 }
 
 .card-one .image-side {
@@ -220,6 +215,10 @@ body {
   font-size: 30px;
   background-color: #fff;
   border-radius: 7px;
+}
+
+.per-click .learn-more > div > a {
+  color: black;
 }
 
 .card-three {
@@ -275,14 +274,14 @@ body {
   border-radius: 7px;
 }
 
-.card-four .learn-more {
+.card-four .email-side .learn-more {
   margin-top: 93px;
   display: flex;
   align-items: center;
   column-gap: 15px;
 }
 
-.card-four .learn-more > div {
+.card-four .learn-more > div > a {
   color: black;
 }
 
@@ -306,14 +305,14 @@ body {
   max-width: fit-content;
 }
 
-.card-five .learn-more {
+.card-five .content-side .learn-more {
   margin-top: 93px;
   display: flex;
   align-items: center;
   column-gap: 15px;
 }
 
-.card-five .learn-more > div {
+.card-five .content-side .learn-more > div > a {
   color: black;
 }
 
@@ -330,29 +329,221 @@ body {
   background-color: #191a23;
 }
 
-.smm-side {
-  max-width: 197px;
+.analytic-side {
+  max-width: 213px;
   height: auto;
 }
 
-.smm-side .learn-more {
+.analytic-side .learn-more {
   display: flex;
   align-items: center;
   column-gap: 15px;
   margin-top: 93px;
 }
 
-.learn-more > div {
+.learn-more > div > a {
   color: white;
+  font-size: 20px;
+  text-decoration: none;
 }
 
-.smm-side > h3 {
+.analytic-side > h3 {
   font-size: 30px;
-  background-color: #fff;
+  background-color: #b9ff66;
   border-radius: 7px;
 }
 
-.card-three .image-side {
+.card-six .image-side {
   max-width: 210px;
-  height: 210px;
+  height: auto;
 }
+
+
+.Proposal {
+  margin-top: 100px;
+  position: relative;
+}
+
+.proporsal-class {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  column-gap: 186px;
+  width: 1240px;
+  height: 340px;
+  background-color: #f3f3f3;
+  border-radius: 45px;
+  padding: 60px;
+}
+
+.proporsal-div {
+  width: 500px;
+  height: 227px;
+}
+
+.proporsal-div h3 {
+  width: 500px;
+  height: 38px;
+  font-size: 30px;
+}
+
+.proporsal-div p {
+  width: 500px;
+  height: 69px;
+  margin-top: 26px;
+  font-size: 18px;
+}
+
+.proporsal-div button {
+  width: 288px;
+  height: 68px;
+  margin-top: 26px;
+  background-color: black;
+  color: white;
+  border-radius: 14px;
+  font-size: 17px;
+}
+
+.proporsal-iamge {
+  width: 495px;
+  height: 394px;
+}
+
+.Project-highlights {
+  margin-top: 80px;
+}
+
+.Case-studios {
+  display: flex;
+  width: 1440px;
+  height: 51px;
+  column-gap: 40px;
+}
+
+.Case-studios h1 {
+  width: 265px;
+  height: 51px;
+  font-size: 30px;
+  background-color: #b9ff66;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 40px;
+}
+
+.Case-studios p {
+  width: 580px;
+  height: 46px;
+  font-size: 18px;
+}
+
+.Case-div {
+  display: flex;
+  width: 1234px;
+  height: 326px;
+  margin-top: 80px;
+  column-gap: 128px;
+  position: relative;
+  padding: 70px 60px 93px;
+  border-radius: 45px;
+  background-color: #191a23;
+}
+
+.Case-div::before,
+.Case-div::after {
+  content: "";
+  position: absolute;
+  top: 70px;
+  bottom: 93px;
+  width: 1px;
+  background-color: white;
+}
+
+.Case-div::before {
+  left: calc(286px + 60px + 64px);
+}
+
+.Case-div::after {
+  right: calc(286px + 60px + 64px);
+}
+
+.Case-div .text1 {
+  width: 286px;
+  height: 163px;
+}
+
+.Case-div .text1 p {
+  width: 286px;
+  height: 115px;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Case-div .text1 span {
+  color: greenyellow;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.Case-div .text2 {
+  width: 286px;
+  height: 163px;
+}
+
+.Case-div .text2 p {
+  width: 286px;
+  height: 115px;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Case-div .text2 span {
+  color: greenyellow;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.Case-div .text3 {
+  width: 286px;
+  height: 186px;
+}
+
+.Case-div .text3 p {
+  width: 286px;
+  height: 138px;
+  font-size: 18px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+.Case-div .text3 span {
+  color: greenyellow;
+  font-size: 20px;
+  margin-right: 15px;
+}
+
+.Working-process {
+  display: flex;
+  margin-top: 140px;
+  column-gap: 40px;
+}
+
+.Working-process h1 {
+  width: 412px;
+  height: 51px;
+  font-size: 30px;
+  background-color: #b9ff66;
+  border-radius: 7px;
+  text-align: center;
+  line-height: 51px;
+  font-size: 40px;
+}
+
+.Working-process p {
+  width: 292px;
+  height: 46px;
+  font-size: 18px;
+}
+
